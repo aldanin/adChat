@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8cf9c1d-f7a9-43b8-a686-c2272ff7a901" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/.dockerignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/build.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/default.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/app.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/config.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/routes/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/routes/tasks.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/routes/users.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/app.ts" afterPath="$PROJECT_DIR$/server/src/app.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,67 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/config/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/config/default.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+              <folding>
+                <marker date="1521916750073" expanded="true" signature="257:287" ph="/** Clean target folder ...*/" />
+                <marker date="1521916750073" expanded="true" signature="368:410" ph="/** Compile server typescript files ...*/" />
+                <marker date="1521916750073" expanded="true" signature="436:490" ph="{...}" />
+                <marker date="1521916750073" expanded="true" signature="549:614" ph="/** Watch server typescript files and compile when changed ...*/" />
+                <marker date="1521916750073" expanded="true" signature="651:659" ph="{...}" />
+                <marker date="1521916750073" expanded="true" signature="700:736" ph="/** Show task list by default ...*/" />
+                <marker date="1521916750073" expanded="true" signature="773:807" ph="/** Show task list for help ...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +73,8 @@
         <entry file="file://$PROJECT_DIR$/server/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="510">
+                <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -134,12 +84,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/dist/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-736">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521916989144" expanded="true" signature="195:253" ph="/** Get port from environment and store in Express. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="339:369" ph="/** Create HTTP server. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="415:477" ph="/** Listen on provided port, on all network interfaces. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="565:625" ph="/** Normalize a port into a number, string, or false. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="654:887" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="747:796" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="816:867" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="888:944" ph="/** Event listener for HTTP server &quot;error&quot; event. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="969:1533" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="1007:1035" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="1213:1531" ph="{...}" />
+                <marker date="1521916989144" expanded="true" signature="1237:1352" ph="..." />
+                <marker date="1521916989144" expanded="true" signature="1379:1483" ph="..." />
+                <marker date="1521916989144" expanded="true" signature="1500:1525" ph="..." />
+                <marker date="1521916989144" expanded="true" signature="1534:1594" ph="/** Event listener for HTTP server &quot;listening&quot; event. ...*/" />
+                <marker date="1521916989144" expanded="true" signature="1618:1780" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/dist/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521916989139" expanded="true" signature="644:805" ph="{&quot;level&quot;: logLevel...}" />
+                <marker date="1521916989139" expanded="true" signature="683:802" ph="[...]" />
+                <marker date="1521916989139" expanded="true" signature="726:794" ph="{&quot;level&quot;: logLevel...}" />
+                <marker date="1521916989139" expanded="true" signature="1118:1183" ph="{&quot;log&quot;: winston...}" />
+                <marker date="1521916989139" expanded="true" signature="1187:1246" ph="//..." />
+                <marker date="1521916989139" expanded="true" signature="1283:1309" ph="{...}" />
+                <marker date="1521916989139" expanded="true" signature="1339:1392" ph="//..." />
+                <marker date="1521916989139" expanded="true" signature="1412:1597" ph="{...}" />
+                <marker date="1521916989139" expanded="true" signature="1459:1472" ph="{...}" />
+                <marker date="1521916989139" expanded="true" signature="1517:1585" ph="{&quot;message&quot;: err.message...}" />
+                <marker date="1521916989139" expanded="true" signature="1598:1659" ph="//..." />
+                <marker date="1521916989139" expanded="true" signature="1701:1739" ph="{...}" />
+                <marker date="1521916989139" expanded="true" signature="1764:1822" ph="{...}" />
+                <marker date="1521916989139" expanded="true" signature="1860:1916" ph="{&quot;message&quot;: err.message...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tslint.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/tslint.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/dist/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521916989142" expanded="true" signature="209:641" ph="{...}" />
+                <marker date="1521916989142" expanded="true" signature="693:784" ph="{...}" />
+                <marker date="1521916989142" expanded="true" signature="787:943" ph="//..." />
+                <marker date="1521916989142" expanded="true" signature="957:1138" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +181,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/client/src/App.tsx" />
+        <option value="$PROJECT_DIR$/server/src/app.ts" />
+        <option value="$PROJECT_DIR$/server/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -164,10 +193,11 @@
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -198,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,20 +243,47 @@
             <path>
               <item name="adChat" type="b2602c69:ProjectViewProjectNode" />
               <item name="adChat" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adChat" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adChat" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adChat" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adChat" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -258,20 +314,24 @@
       <updated>1521912292132</updated>
       <workItem from="1521912294469" duration="924000" />
       <workItem from="1521913928725" duration="1512000" />
-      <workItem from="1521915944974" duration="907000" />
+      <workItem from="1521915944974" duration="1326000" />
+      <workItem from="1521917284882" duration="44000" />
+      <workItem from="1521917339143" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3343000" />
+    <option name="totallyTimeSpent" value="3931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="27" width="1535" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.250501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.250501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -283,7 +343,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -298,19 +357,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/server/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor>
@@ -319,211 +370,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/tslint.json">
+    <entry file="file://$PROJECT_DIR$/server/dist/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1521916989139" expanded="true" signature="644:805" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="683:802" ph="[...]" />
+            <marker date="1521916989139" expanded="true" signature="726:794" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="1118:1183" ph="{&quot;log&quot;: winston...}" />
+            <marker date="1521916989139" expanded="true" signature="1187:1246" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1283:1309" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1339:1392" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1412:1597" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1459:1472" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1517:1585" ph="{&quot;message&quot;: err.message...}" />
+            <marker date="1521916989139" expanded="true" signature="1598:1659" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1701:1739" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1764:1822" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1860:1916" ph="{&quot;message&quot;: err.message...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/LICENSE">
+    <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/api/facets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/lib/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/.dockerignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -546,9 +419,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <marker date="1521916750073" expanded="true" signature="257:287" ph="/** Clean target folder ...*/" />
+            <marker date="1521916750073" expanded="true" signature="368:410" ph="/** Compile server typescript files ...*/" />
+            <marker date="1521916750073" expanded="true" signature="436:490" ph="{...}" />
+            <marker date="1521916750073" expanded="true" signature="549:614" ph="/** Watch server typescript files and compile when changed ...*/" />
+            <marker date="1521916750073" expanded="true" signature="651:659" ph="{...}" />
+            <marker date="1521916750073" expanded="true" signature="700:736" ph="/** Show task list by default ...*/" />
+            <marker date="1521916750073" expanded="true" signature="773:807" ph="/** Show task list for help ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,7 +449,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521916989144" expanded="true" signature="195:253" ph="/** Get port from environment and store in Express. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="339:369" ph="/** Create HTTP server. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="415:477" ph="/** Listen on provided port, on all network interfaces. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="565:625" ph="/** Normalize a port into a number, string, or false. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="654:887" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="747:796" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="816:867" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="888:944" ph="/** Event listener for HTTP server &quot;error&quot; event. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="969:1533" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1007:1035" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1213:1531" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1237:1352" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1379:1483" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1500:1525" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1534:1594" ph="/** Event listener for HTTP server &quot;listening&quot; event. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="1618:1780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521916989139" expanded="true" signature="644:805" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="683:802" ph="[...]" />
+            <marker date="1521916989139" expanded="true" signature="726:794" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="1118:1183" ph="{&quot;log&quot;: winston...}" />
+            <marker date="1521916989139" expanded="true" signature="1187:1246" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1283:1309" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1339:1392" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1412:1597" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1459:1472" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1517:1585" ph="{&quot;message&quot;: err.message...}" />
+            <marker date="1521916989139" expanded="true" signature="1598:1659" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1701:1739" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1764:1822" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1860:1916" ph="{&quot;message&quot;: err.message...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.tsx" />
+    <entry file="file://$PROJECT_DIR$/my-app/tslint.json" />
+    <entry file="file://$PROJECT_DIR$/my-app/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/my-app/tslint.json" />
+    <entry file="file://$PROJECT_DIR$/my-app/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.tsx" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/server/Procfile" />
+    <entry file="file://$PROJECT_DIR$/server/src/api/index.js" />
+    <entry file="file://$PROJECT_DIR$/server/src/api/facets.js" />
+    <entry file="file://$PROJECT_DIR$/server/src/lib/util.js" />
+    <entry file="file://$PROJECT_DIR$/server/src/db.js" />
+    <entry file="file://$PROJECT_DIR$/server/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -581,7 +631,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <marker date="1521916750073" expanded="true" signature="257:287" ph="/** Clean target folder ...*/" />
+            <marker date="1521916750073" expanded="true" signature="368:410" ph="/** Compile server typescript files ...*/" />
+            <marker date="1521916750073" expanded="true" signature="436:490" ph="{...}" />
+            <marker date="1521916750073" expanded="true" signature="549:614" ph="/** Watch server typescript files and compile when changed ...*/" />
+            <marker date="1521916750073" expanded="true" signature="651:659" ph="{...}" />
+            <marker date="1521916750073" expanded="true" signature="700:736" ph="/** Show task list by default ...*/" />
+            <marker date="1521916750073" expanded="true" signature="773:807" ph="/** Show task list for help ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521916989142" expanded="true" signature="209:641" ph="{...}" />
+            <marker date="1521916989142" expanded="true" signature="693:784" ph="{...}" />
+            <marker date="1521916989142" expanded="true" signature="787:943" ph="//..." />
+            <marker date="1521916989142" expanded="true" signature="957:1138" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521916989144" expanded="true" signature="195:253" ph="/** Get port from environment and store in Express. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="339:369" ph="/** Create HTTP server. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="415:477" ph="/** Listen on provided port, on all network interfaces. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="565:625" ph="/** Normalize a port into a number, string, or false. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="654:887" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="747:796" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="816:867" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="888:944" ph="/** Event listener for HTTP server &quot;error&quot; event. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="969:1533" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1007:1035" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1213:1531" ph="{...}" />
+            <marker date="1521916989144" expanded="true" signature="1237:1352" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1379:1483" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1500:1525" ph="..." />
+            <marker date="1521916989144" expanded="true" signature="1534:1594" ph="/** Event listener for HTTP server &quot;listening&quot; event. ...*/" />
+            <marker date="1521916989144" expanded="true" signature="1618:1780" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521916989139" expanded="true" signature="644:805" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="683:802" ph="[...]" />
+            <marker date="1521916989139" expanded="true" signature="726:794" ph="{&quot;level&quot;: logLevel...}" />
+            <marker date="1521916989139" expanded="true" signature="1118:1183" ph="{&quot;log&quot;: winston...}" />
+            <marker date="1521916989139" expanded="true" signature="1187:1246" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1283:1309" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1339:1392" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1412:1597" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1459:1472" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1517:1585" ph="{&quot;message&quot;: err.message...}" />
+            <marker date="1521916989139" expanded="true" signature="1598:1659" ph="//..." />
+            <marker date="1521916989139" expanded="true" signature="1701:1739" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1764:1822" ph="{...}" />
+            <marker date="1521916989139" expanded="true" signature="1860:1916" ph="{&quot;message&quot;: err.message...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

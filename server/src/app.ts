@@ -10,6 +10,7 @@ import appConfig from './config';
 
 export const app = express();
 
+const alon =1;
 const isDevelopment = app.get('env') === 'development';
 const defaultLogDevel = isDevelopment ? 'debug' : 'warn';
 const logLevel = process.env.LOG_LEVEL ? process.env.LOG_LEVEL : defaultLogDevel;
